@@ -14,7 +14,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $param = ['name' => '今井健太'];
-        DB::table('prefs')->insert($param)
+        // $param = ['name' => '今井健太'];
+        // DB::table('prefs')->insert($param)
     }
 }
