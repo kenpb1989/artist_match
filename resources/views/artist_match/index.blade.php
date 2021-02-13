@@ -6,7 +6,7 @@
 <div class="row">
     <div class="col-sm-12 col-md-4">
         <div class="container">
-            <h4>ユーザー検索サンプル</h4>
+            <h4>ユーザー検索</h4>
                 <form action="{{ route('list') }}" method="get">
                     <input type="text" name="search_word">
 
