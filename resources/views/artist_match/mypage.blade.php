@@ -40,6 +40,7 @@
     <td><a href='{{ route("edit") }}'>編集する</a></td>
   </tr>
 </table>
+<a href="{{ route('index') }}">トップページに戻る</a>
 
 
 @endsection

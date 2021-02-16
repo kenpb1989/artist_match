@@ -68,6 +68,6 @@
   </tr>
 </form>
 </table>
-
+<a href="{{ route('index') }}">トップページに戻る</a>
 
 @endsection

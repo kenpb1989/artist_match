@@ -52,6 +52,8 @@
             @endforeach
         </table>
         {{ $users->links() }}
+        <p></p>
+        <a href="{{ route('index') }}">トップページに戻る</a>
     </div>
 </div>
 @endsection
