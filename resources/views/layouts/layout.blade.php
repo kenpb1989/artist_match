@@ -68,11 +68,11 @@
                     </ul>
                 </div>
   </nav>
-
+<div class="col-md-10 col-md-offset">
   @section('content')
   @show
 
 
-
+</div>
 </body>
 </html>

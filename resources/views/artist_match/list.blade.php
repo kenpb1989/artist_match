@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="row">
-    <div class="col-sm-12 col-md-4">
+    <div class="col-sm-12 col-md-2">
         <div class="container">
           <p></p>
           <h5>ユーザー検索</h5>
