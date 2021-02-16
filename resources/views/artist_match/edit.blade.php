@@ -49,7 +49,7 @@
 
   <tr>
     <th>自己紹介</th>
-    <td><textarea name="introduction" cols="30" rows="10" >{{ $user->introduction->introduction }}</textarea></td>
+    <td><textarea name="introduction" cols="20" rows="10" >{{ $user->introduction->introduction }}</textarea></td>
   </tr>
 
   <tr>
