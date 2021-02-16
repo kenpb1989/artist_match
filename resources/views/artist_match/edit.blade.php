@@ -4,7 +4,7 @@
 
 @section('content')
 <p></p>
-<h1>編集ページ</h1>
+<h3>編集ページ</h3>
 <h3>{{ $user->name }}さん</h3>
 <table>
 <form action="edit" method="POST">

@@ -4,7 +4,7 @@
 
 @section('content')
 <p></p>
-<h1>マイページ</h1>
+<h3>マイページ</h3>
 <table>
   <tr>
     <th>名前：</th>

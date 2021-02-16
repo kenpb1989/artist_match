@@ -7,7 +7,7 @@
     <div class="col-sm-12 col-md-4">
         <div class="container">
             <p></p>
-            <h4>ユーザー検索</h4>
+            <h5>ユーザー検索</h5>
                 <form action="{{ route('list') }}" method="get">
                     <input type="text" name="search_word">
 
@@ -37,7 +37,7 @@
     <div class="col-sm-12 col-md-8">
         <div class="container">
             <p></p>
-                <h1>トップページ</h1>
+                <h3>トップページ</h3>
                 <div>
                     <a href='{{ route("list") }}'>記事一覧</a>
                 </div>

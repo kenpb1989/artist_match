@@ -7,7 +7,7 @@
     <div class="col-sm-12 col-md-4">
         <div class="container">
           <p></p>
-          <h4>ユーザー検索</h4>
+          <h5>ユーザー検索</h5>
                 <form action="{{ route('list') }}" method="get">
                     <input type="text" name="search_word">
 
@@ -37,17 +37,19 @@
     <div class="col-sm-12 col-md-8">
       <div class="container">
         <p></p>
-        <h1>記事一覧</h1>
-        <table>
+        <h3>記事一覧</h3>
+        <table class="table">
           <tr>
             <th>名前</th>
             <th>パート</th>
+            <th>活動地域</th>
             <th></th>
           </tr>
             @foreach($users as $user)
               <tr>
                 <td>{{ $user->name }}</td>
                 <td>{{ $user->part->part }}</td>
+                <td>{{ $user->pref->pref }}</td>
                 <td><a href="{{ route("show", ['id'=>$user->id]) }}">詳細画面へ</a></td>
               </tr>
             @endforeach

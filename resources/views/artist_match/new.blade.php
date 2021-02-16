@@ -5,8 +5,9 @@
 @section('content')
 <div class="justify-content-center">
   <p></p>
-  <h1>プロフィールを登録してください</h1>
-  <h3>{{ $user->name }}さん</h3>
+  <h3>ようこそ{{ $user->name }}さん</h3>
+  <h5>プロフィールを登録してください</h5>
+
   <table>
     <form action="new" method="POST">
       @csrf
