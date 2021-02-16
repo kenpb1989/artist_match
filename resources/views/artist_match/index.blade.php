@@ -29,6 +29,8 @@
                         @endforeach
                     </select>
 
+                    <p></p>
+
                     <input type="submit" value="検索">
                 </form>
         </div>
