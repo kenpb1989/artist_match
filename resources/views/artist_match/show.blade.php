@@ -34,8 +34,8 @@
     <th>Youtube：</th>
     <td>{{ $user->introduction->youtube }}</td>
   </tr>
-
 </table>
+<a href="{{ route('index') }}">トップページに戻る</a>
 
 
 @endsection
