@@ -6,6 +6,7 @@
 <div class="row">
     <div class="col-sm-12 col-md-4">
         <div class="container">
+            <p></p>
             <h4>ユーザー検索</h4>
                 <form action="{{ route('list') }}" method="get">
                     <input type="text" name="search_word">
@@ -35,16 +36,17 @@
 
     <div class="col-sm-12 col-md-8">
         <div class="container">
-        <h1>トップページ</h1>
-        <div>
-            <a href='{{ route("list") }}'>記事一覧</a>
-        </div>
-            @auth
+            <p></p>
+                <h1>トップページ</h1>
                 <div>
-                    <a href='{{ route("mypage") }}'>マイページ</a>
+                    <a href='{{ route("list") }}'>記事一覧</a>
                 </div>
-            @endauth
+                    @auth
+                        <div>
+                            <a href='{{ route("mypage") }}'>マイページ</a>
+                        </div>
+                    @endauth
+                </div>
         </div>
     </div>
-</div>
 @endsection

@@ -3,6 +3,7 @@
 @section('title', 'mypage')
 
 @section('content')
+<p></p>
 <h1>マイページ</h1>
 <table>
   <tr>

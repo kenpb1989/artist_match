@@ -3,6 +3,7 @@
 @section('title', 'show')
 
 @section('content')
+<p></p>
 <h1>詳細ページ</h1>
 <table>
   <tr>

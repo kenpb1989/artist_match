@@ -4,7 +4,7 @@
 
 @section('content')
 <div class="justify-content-center">
-
+  <p></p>
   <h1>プロフィールを登録してください</h1>
   <h3>{{ $user->name }}さん</h3>
   <table>
